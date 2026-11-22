@@ -22,14 +22,14 @@ PowerShell:
 
 ```powershell
 New-Item -ItemType Directory -Force .opencode/agents | Out-Null
-Invoke-WebRequest https://raw.githubusercontent.com/Irene0450/Agente-documentador/main/.opencode/agents/documentador.md -OutFile .opencode/agents/documentador.md
+Invoke-WebRequest https://raw.githubusercontent.com/Irene0450/Agente_documentador/main/.opencode/agents/documentador.md -OutFile .opencode/agents/documentador.md
 ```
 
 Bash:
 
 ```bash
 mkdir -p .opencode/agents
-curl -fsSL https://raw.githubusercontent.com/Irene0450/Agente-documentador/main/.opencode/agents/documentador.md -o .opencode/agents/documentador.md
+curl -fsSL https://raw.githubusercontent.com/Irene0450/Agente_documentador/main/.opencode/agents/documentador.md -o .opencode/agents/documentador.md
 ```
 
 Para instalarlo en todos tus repositorios, cambia `.opencode/agents` por `~/.config/opencode/agents` (en PowerShell, `$HOME/.config/opencode/agents`).
@@ -49,7 +49,7 @@ Para **actualizarlo**, repite la descarga. Para **desinstalarlo**, borra el arch
 ```text
 @documentador Documenta este repositorio: README.md y ARCHITECTURE.md con evidencia.
 @documentador Genera o actualiza solo el README.
-@documentador Revisa la documentación actual y sincronizarla con el código. Solo cambios mínimos.
+@documentador Revisa la documentación actual y sincronízala con el código. Solo cambios mínimos.
 @documentador Genera un índice navegable en docs/INDEX.md con enlaces verificados.
 @documentador Genera un CHANGELOG.md a partir de los commits recientes.
 @documentador Explícame la arquitectura de este repositorio sin generar archivos.
