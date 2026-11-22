@@ -1,0 +1,11 @@
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+# Dependencias si se ejecutan los casos de prueba
+node_modules/
+
+# Los .env de tests/fixtures/ son falsos y se versionan a propósito.
